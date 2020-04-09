@@ -38,13 +38,13 @@ $ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic order-
 $ mongo
 
 ## Step 6: Start Order Service 
-$ cd desktop/eventsourcing_cqrs/order 
-$ npm i 
-$ node server.js
+* $ cd desktop/eventsourcing_cqrs/order 
+* $ npm i 
+* $ node server.js
 
 ## Step 7: Start Product Service 
-$ cd desktop/eventsourcing_cqrs/product 
-$ npm i 
-$ node server.js
+* $ cd desktop/eventsourcing_cqrs/product 
+* $ npm i 
+* $ node server.js
 
 © 2020 GitHub, Inc.
