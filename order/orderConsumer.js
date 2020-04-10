@@ -20,15 +20,13 @@ consumer.on('message', async function (message) {
 
   console.log("===>", consumerdata);
 
-  // console.log(consumerdata.data);
+  
   switch (consumerdata.type) {
 
     case 'ORDER_PLACED': {
-      // const orderCollection = await orderModel.insertOrder(consumerdata.data);
+      
       console.log("order Id -----> ", consumerdata.data._id);
-      // console.log({ orderCollection });
-      // const deleteStatus = await postModel.deletePosts(consumerdata.data);
-      // console.log("deleteStatus", deleteStatus);
+      
       console.log("Order successfully placed");
       return;
     };
