@@ -45,8 +45,7 @@ try {
 
         console.log('MongoDB connected successfully');
 
-        //   var commandService = require('./routes')(app, producer, kafka_topic);
-        //const commandService = require('./routes');
+        
         app.use('/orderCommandService', require('./orderCommand').route(command, producer, kafka_topic));
 
         app.use('/orderQueryService', require('./orderQuery')(query));
