@@ -5,8 +5,7 @@ const route = (app) => {
 
 
   app.post('/insertProduct', async (req, res) => {
-    // const orderId = uuidv4();
-    // console.log("order Id -----> ", orderId);
+    
 
     try {
       const orderdata = {
