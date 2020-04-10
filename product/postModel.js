@@ -26,7 +26,7 @@ class Product {
             _id: Mongoose.mongo.ObjectID(id)
         }).exec();
     }
-    //MyModel.find({ name: 'john', age: { $gte: 18 }});
+   
     static getProduct(brand, name, color) {
 
         return this.find({
